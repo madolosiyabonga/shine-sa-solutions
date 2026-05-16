@@ -1,4 +1,4 @@
-import { Zap, Facebook, Instagram, Linkedin, Phone, Mail, MapPin } from "lucide-react";
+import { Zap, Phone, Mail, MapPin, Globe } from "lucide-react";
 
 export function Footer() {
   return (
@@ -19,9 +19,9 @@ export function Footer() {
               Your trusted partner for electrical, solar and security solutions across Gauteng.
             </p>
             <div className="mt-5 flex gap-2">
-              {[Facebook, Instagram, Linkedin].map((I, i) => (
-                <a key={i} href="#" className="h-9 w-9 rounded-full bg-white/5 hover:bg-primary hover:text-primary-foreground grid place-items-center transition-colors">
-                  <I className="h-4 w-4" />
+              {["Facebook", "Instagram", "LinkedIn"].map((label) => (
+                <a key={label} href="#" aria-label={label} className="h-9 w-9 rounded-full bg-white/5 hover:bg-primary hover:text-primary-foreground grid place-items-center transition-colors text-xs font-semibold">
+                  {label[0]}
                 </a>
               ))}
             </div>
