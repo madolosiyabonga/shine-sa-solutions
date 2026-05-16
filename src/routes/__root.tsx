@@ -76,10 +76,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Solar, backup power, CCTV and electrical services in Germiston, South Africa." },
       { name: "author", content: "CI Electric" },
       { property: "og:title", content: "CI Electric & Security Solutions" },
-      { property: "og:description", content: "Solar, backup power, CCTV and electrical services in Germiston." },
+      { property: "og:description", content: "Solar, backup power, CCTV and electrical services in Germiston, South Africa." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "CI Electric & Security Solutions" },
+      { name: "twitter:description", content: "Solar, backup power, CCTV and electrical services in Germiston, South Africa." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/acb8fb9b-6bd0-4312-a249-f3c6ec870964/id-preview-57bba5ed--fe65580d-f7ad-49db-9d26-07f94a12954b.lovable.app-1778950922045.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/acb8fb9b-6bd0-4312-a249-f3c6ec870964/id-preview-57bba5ed--fe65580d-f7ad-49db-9d26-07f94a12954b.lovable.app-1778950922045.png" },
     ],
     links: [
       {
